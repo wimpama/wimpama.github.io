@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+
+	<link rel="stylesheet" href="./index.css" />
+	<!-- <link rel="stylesheet"  href="./global.css" /> -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Source Han Sans CN:wght@400;500;700&display=swap" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PingFang SC:wght@600&display=swap" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=YouSheBiaoTiHei:wght@400&display=swap" />
+
+
+
+</head>
+
+<body>
+
+	<div class="ai">
+		<div class="rectangle-parent">
+			<div class="instance-child">
+			</div>
+			<div class="instance-item">
+			</div>
+			<div class="instance-inner">
+			</div>
+			<div class="rectangle-div">
+			</div>
+			<div class="instance-child1">
+			</div>
+			<div class="instance-child2">
+			</div>
+		</div>
+		<b class="b">
+			<p class="p">教研高效.课堂创新.课后减负</p>
+			<p class="p1">精准赋能教学流程</p>
+			<br>
+			<b class="p2">多模态智能工作台，让AI成为教师的“第二大脑”</b>
+		</b>
+		<!-- <b class="ai1">多模态智能工作台，让AI成为教师的“第二大脑”</b> -->
+
+		<b class="b1">热门工具</b>
+		<b class="b2">全部工具</b>
+
+		<div class="ai-inner">
+			<div class="ai-parent">
+				<b class="ai21">AI教案</b>
+				<img class="search-icon" alt="" src="search.svg">
+
+			</div>
+		</div>
+		<div class="carousel-container">
+			<button class="control-button left" onclick="moveRight()">
+				<img class="leftImg" src="arrow-right.svg" alt="左滑动">
+			</button>
+			<div class="carousel-wrapper">
+				<div class="carousel">
+					<div class="button-group">
+						<div class="buttonInCarousel" id="buttonInCarousel">备课助手</div>
+						<div class="buttonInCarousel" id="buttonInCarouse2">课堂助手</div>
+						<div class="buttonInCarousel" id="buttonInCarouse3">公开课</div>
+						<div class="buttonInCarousel" id="buttonInCarouse4">AI命题考试</div>
+						<div class="buttonInCarousel" id="buttonInCarouse5">课题论文</div>
+						<div class="buttonInCarousel" id="buttonInCarouse6">活动设计</div>
+						<div class="buttonInCarousel" id="buttonInCarouse7">教务助手</div>
+						<div class="buttonInCarousel" id="buttonInCarouse8">科学</div>
+						<div class="buttonInCarousel" id="buttonInCarouse9">信息技术</div>
+						<div class="buttonInCarousel" id="buttonInCarousel0">体育</div>
+					</div>
+					<div class="button-group">
+						<div class="buttonInCarousel" id="buttonInCarousel1">语文</div>
+						<div class="buttonInCarousel" id="buttonInCarousel2">数学</div>
+						<div class="buttonInCarousel" id="buttonInCarousel3">英语</div>
+						<div class="buttonInCarousel" id="buttonInCarousel4">物理</div>
+						<div class="buttonInCarousel" id="buttonInCarousel5">化学</div>
+						<div class="buttonInCarousel" id="buttonInCarousel6">生物</div>
+						<div class="buttonInCarousel" id="buttonInCarousel7">政治</div>
+						<div class="buttonInCarousel" id="buttonInCarousel8">历史</div>
+						<div class="buttonInCarousel" id="buttonInCarousel9">地理</div>
+						<div class="buttonInCarousel" id="buttonInCarouse20">音乐</div>
+						<div class="buttonInCarousel" id="buttonInCarouse2l">美术</div>
+						<div class="buttonInCarousel" id="buttonInCarouse22">劳动</div>
+
+
+					</div>
+				</div>
+			</div>
+			<!-- 右滑动按钮（初始可见） -->
+			<button class="control-button right" onclick="moveLeft()">
+				<img src="arrow-right.svg" alt="左滑动">
+			</button>
+			<div class="leftMask" id="leftMask"></div>
+			<div class="rightMask" id="rightMask"></div>
+		</div>
+		<div class="group-parent">
+			<div class="rectangle-group" id="rectangle-group1">
+				<div class="group-child" id="group-child1">
+				</div>
+				<b class="app">AI万能工具</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">快速制作智能点名助手APP，结合AI技术革新传统点名方式。教师轻松设置，APP智能识别学生，快速完成点名并记录考勤。可视化统计，让课堂管理……</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 1.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="group-container">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">深度大纲检索</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">校园深度大纲检索应用，智能分析教材大纲，快速定位关键信息，助力师生高效备课与学习</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 2.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="frame-div">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">APP名称</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">小的几句简短的说明文字巴拉巴拉打算代表u健身房的司法和的几句简短的说明文字巴拉巴拉打算代表u健身房的司法和的几句简短的说明文字巴拉拉……</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 3.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="group-parent1">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">课本里的朋友</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">通过AI技术让课本角色活起来，增强学习趣味，促进学生与知识的互动</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 4.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="group-parent2">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">快速拆解优质教案</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">校园快速拆解优质教案应用，利用AI技术高效分析教案亮点，助力教师快速学习提升教学质量</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 5.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="group-parent3">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">APP名称</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">小的几句简短的说明文字巴拉巴拉打算代表u健身房的司法和的几句简短的说明文字巴拉巴拉打算代表u健身房的司法和的几句简短的说明文字巴拉拉……</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 6.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="group-parent4">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">AI生成PPT</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">根据你的主题大纲生成PPT，并附上多样化的丰富模板，可以打造出既专业又吸引人的演示文稿，让你的演讲更加出彩</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 1.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="group-parent5">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">AI心理测评</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">校园AI心理测评应用，通过智能分析学生心理状况，提供个性化指导，助力校园心理健康教育和辅导</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 1.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="group-parent6">
+			<div class="rectangle-group">
+				<div class="group-child">
+				</div>
+				<b class="app">APP名称</b>
+				<img class="chart-bubble-icon" alt="" src="chart-bubble.svg">
+
+				<div class="uu">小的几句简短的说明文字巴拉巴拉打算代表u健身房的司法和的几句简短的说明文字巴拉巴拉打算代表u健身房的司法和的几句简短的说明文字巴拉拉……</div>
+				<div class="group-item">
+				</div>
+				<img class="icon" alt="" src="使用特定软件生成图片 (2) 1.png">
+
+			</div>
+			<img class="star-icon" alt="" src="star.svg">
+
+			<img class="image-icon" alt="" src="image.png">
+
+			<div class="div22">3000+</div>
+			<div class="image-parent">
+				<div class="image">
+				</div>
+				<img class="fork-icon" alt="" src="fork.svg">
+
+			</div>
+		</div>
+		<div class="rectangle-parent7">
+			<div class="group-child15">
+			</div>
+			<div class="headermenu-parent">
+				<div class="headermenu">
+				</div>
+				<div class="parent">
+					<b class="b3">京师模力</b>
+					<!-- <img class="cbd419223ffeceaaa9047a686afd33-icon" alt="" src="0cbd419223ffeceaaa9047a686afd33 1.png"> -->
+
+					<div class="itemmenulogobaselogo-dark">
+					</div>
+					<div class="group-parent7">
+						<img class="group-icon" alt="" src="Group 400.svg">
+
+						<div class="div31">京师模力</div>
+					</div>
+				</div>
+				<div class="frame-parent">
+					<div class="instance-wrapper" id="frameContainer">
+						<div class="wrapper">
+							<b class="ai2">首页</b>
+						</div>
+					</div>
+					<div class="instance-container" id="frameContainer1">
+						<div class="container">
+							<b class="ai2">AI应用广场</b>
+						</div>
+					</div>
+					<div class="instance-wrapper" id="frameContainer2">
+						<div class="wrapper">
+							<b class="ai2">AI案例广场</b>
+						</div>
+					</div>
+					<div class="instance-wrapper" id="frameContainer3">
+						<div class="wrapper">
+							<b class="ai2">AI学苑</b>
+						</div>
+					</div>
+					<div class="instance-wrapper" id="frameContainer4">
+						<div class="wrapper">
+							<b class="ai2">元启计划</b>
+						</div>
+					</div>
+					<div class="instance-wrapper3">
+						<div class="wrapper">
+							<b class="ai2">京师大模型</b>
+						</div>
+					</div>
+				</div>
+				<div class="avatar" id="avatarContainer">
+					<img class="user-icon" alt="" src="user.svg">
+
+				</div>
+			</div>
+		</div>
+		<div class="rectangle-parent8">
+			<div class="instance-child3">
+			</div>
+			<div class="group-wrapper" id="group-wrapper">
+				<div class="rectangle-parent9">
+					<div class="group-child16" id="group-child16">
+					</div>
+					<div class="group-frame">
+						<div class="wrapper4">
+							<div class="div32" id="itemTxt">应用记录</div>
+						</div>
+					</div>
+					<img class="group-child17" id="Group436" alt="Group436" src="Group436.svg">
+
+				</div>
+			</div>
+			<!--  -->
+			<div class="group-wrapper1" id="group-wrapper1">
+				<div class="rectangle-parent9">
+					<div class="group-child16-1 group-child16" id="group-child16-1">
+					</div>
+					<div class="group-frame">
+						<div class="wrapper4">
+							<div class="div32" id="itemTxt1">我的案例</div>
+						</div>
+					</div>
+					<img class="group-child17" id="Group436" alt="Group436" src="root-list.svg">
+
+				</div>
+			</div>
+			<!--  -->
+			<!-- <div class="group-wrapper2" id="group-wrapper1">
+				<div class="rectangle-parent9">
+					<div class="group-child16-1 group-child16 " id="group-child16-1">
+					</div>
+					<div class="group-frame">
+						<div class="wrapper4">
+							<div class="div32" id="itemTxt1">我的案例</div>
+						</div>
+					</div>
+					<div class="group-wrapper3">
+						<div class="group-wrapper3">
+						</div>
+					</div>
+				</div>
+			</div> -->
+<!--  -->
+
+			<!-- <img class="root-list-icon" alt="" src="root-list.svg"> -->
+
+		</div>
+		<div class="footer">
+			<div class="icp2022033792-1">© 版权所有 京师数据（北京）教育科技有限公司 | 地址：北京市海淀区学院南路12号北京师范大学南苑 京ICP备2022033792号-1</div>
+		</div>
+	</div>
+
+
+	<script>
+
+		// 菜单
+		var frameContainer = document.getElementById("frameContainer");
+		var frameContainer1 = document.getElementById("frameContainer1");
+		var frameContainer2 = document.getElementById("frameContainer2");
+		var frameContainer3 = document.getElementById("frameContainer3");
+		var frameContainer4 = document.getElementById("frameContainer4");
+		if (frameContainer) {
+			frameContainer.addEventListener("click", function (e) {
+				console.log('goto 首页')
+				window.location.href = '../index.html'
+			});
+		}
+		if (frameContainer1) {
+			frameContainer1.addEventListener("click", function (e) {
+				console.log('goto 应用')
+				window.location.href = 'AIApplication/index.html'
+			});
+		}
+		if (frameContainer2) {
+			frameContainer2.addEventListener("click", function (e) {
+				console.log('goto 案例')
+				window.location.href = '../AICase/index.html'
+			});
+		}
+		if (frameContainer3) {
+			frameContainer3.addEventListener("click", function (e) {
+				window.location.href = '../AIAcademy/index.html'
+			});
+		}
+		if (frameContainer4) {
+			frameContainer4.addEventListener("click", function (e) {
+				window.location.href = '../yuanqi/index.html'
+			});
+		}
+
+		var avatarContainer = document.getElementById("avatarContainer");
+		if (avatarContainer) {
+			avatarContainer.addEventListener("click", function (e) {
+				window.location.href = '../my/index.html'
+			});
+		}
+
+		var rectangleGroup1 = document.getElementById("rectangle-group1");
+		if (rectangleGroup1) {
+			rectangleGroup1.addEventListener("click", function (e) {
+				window.location.href = '../AIApplication/AITool/index.html'
+			});
+		}
+
+		// 滑动
+		let isMoved = false; // 记录状态
+		const shiftAmount = 200; // 移动的距离
+		const carousel = document.querySelector(".carousel");
+		const leftButton = document.querySelector(".left");
+		const rightButton = document.querySelector(".right");
+
+		function moveLeft() {
+			if (!isMoved) {
+				carousel.style.transform = `translateX(-${shiftAmount}px)`;
+				isMoved = true;
+				rightButton.style.display = "none"; // 隐藏右按钮
+				leftButton.style.display = "flex"; // 显示左按钮
+				var leftMask = document.getElementById('leftMask');
+				var rightMask = document.getElementById('rightMask');
+				leftMask.style.display = 'block'
+				rightMask.style.display = 'none'
+			}
+		}
+
+		function moveRight() {
+			if (isMoved) {
+				carousel.style.transform = `translateX(0)`;
+				isMoved = false;
+				leftButton.style.display = "none"; // 隐藏左按钮
+				rightButton.style.display = "flex"; // 显示右按钮
+				var leftMask = document.getElementById('leftMask');
+				var rightMask = document.getElementById('rightMask');
+				leftMask.style.display = 'none'
+				rightMask.style.display = 'block'
+			}
+		}
+
+
+
+	</script>
+</body>
+
+</html>

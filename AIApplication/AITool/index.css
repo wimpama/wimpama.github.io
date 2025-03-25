@@ -1,0 +1,543 @@
+.group-child {
+  position: absolute;
+  top: 90px;
+  left: 268px;
+  border-radius: 50%;
+  background: linear-gradient(141.32deg, #fff, rgba(168, 235, 255, 0.5) 60.4%, rgba(151, 71, 255, 0.5) 90.9%, #fff);
+  width: 194px;
+  height: 194px;
+}
+.group-item {
+  position: absolute;
+  top: 240px;
+  left: 476px;
+  border-radius: 50%;
+  background: linear-gradient(141.32deg, #fff, #c6e1fc 79.9%, #5275ff);
+  width: 92px;
+  height: 92px;
+}
+.group-inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  backdrop-filter: blur(30.7px);
+  background: linear-gradient(109.8deg, rgba(248, 255, 234, 0.5), rgba(217, 255, 239, 0.33) 36%, rgba(54, 110, 244, 0.3));
+  width: 1920px;
+  height: 632px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 632px;
+  object-fit: cover;
+}
+.star-icon {
+  position: absolute;
+  top: 268px;
+  left: 497px;
+  width: 28px;
+  height: 28px;
+}
+.div {
+  position: absolute;
+  top: 269.27px;
+  left: calc(50% - 428.64px);
+  color: #747474;
+}
+.ai {
+  position: absolute;
+  top: 240px;
+  left: calc(50% - 800px);
+  font-size: 48px;
+}
+.p {
+  margin: 0;
+}
+.appaiapp {
+  position: absolute;
+  top: 336px;
+  left: calc(50% - 800px);
+  font-size: 14px;
+  display: inline-block;
+  width: 648px;
+}
+.download-icon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+}
+.div1 {
+  position: relative;
+  line-height: 24px;
+}
+.button {
+  position: absolute;
+  top: 448px;
+  left: 160px;
+  border-radius: 20px;
+  background-color: #0052d9;
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 24px;
+  box-sizing: border-box;
+  gap: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'PingFang SC';
+}
+.mastericon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.itemicon24 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mastericon4 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  z-index: 0;
+}
+.half-icon {
+  width: 12px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 16px);
+  left: 0px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.itemicon244 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.rate {
+  position: absolute;
+  top: 270px;
+  left: 639px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 76px;
+  left: 0px;
+  width: 1920px;
+  height: 632px;
+  font-size: 17.82px;
+}
+.ai-child {
+  position: absolute;
+  top: 761px;
+  left: 46px;
+  width: 1850px;
+  height: 869px;
+  opacity: 0.7;
+}
+.icon {
+  position: absolute;
+  top: 848px;
+  left: 218px;
+  border-radius: 16px;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.icon1 {
+  position: absolute;
+  top: 1086px;
+  left: 1601px;
+  border-radius: 16px;
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.loading-blue-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+.loading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: left;
+  color: #0052d9;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.k {
+  position: relative;
+  line-height: 20px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.file {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.text {
+  position: relative;
+  line-height: 22px;
+}
+.link {
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: 14px;
+  color: #0052d9;
+}
+.dragger {
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 23px;
+  gap: 20px;
+}
+.upload1 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 2px solid #366ef4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.upload {
+  position: absolute;
+  top: 1086px;
+  left: 968px;
+  border-radius: 2px;
+  width: 588px;
+  height: 166px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+}
+.ai-item {
+  position: absolute;
+  top: 1712px;
+  left: 364px;
+  border-radius: 59.5px;
+  background-color: #fff;
+  border: 3px solid #366EF480;
+  box-sizing: border-box;
+  width: 1192px;
+  height: 112px;
+}
+.add-circle-icon {
+  position: absolute;
+  top: 1750px;
+  left: 1384px;
+  width: 36px;
+  height: 36px;
+}
+.wrapper {
+  position: absolute;
+  top: 848px;
+  left: 364px;
+  border-radius: 8px;
+  background-color: #f6f7fa;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 56px 61px;
+}
+.container {
+  position: absolute;
+  top: 1646px;
+  left: 364px;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 3px solid #e6eeff;
+  box-sizing: border-box;
+  width: 512px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 61px;
+}
+.frame {
+  position: absolute;
+  top: 1646px;
+  left: 908px;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 3px solid #e6eeff;
+  box-sizing: border-box;
+  width: 272px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 61px;
+}
+.frame-div {
+  position: absolute;
+  top: 1646px;
+  left: 1212px;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 3px solid #e6eeff;
+  box-sizing: border-box;
+  width: 344px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 61px;
+}
+.frame-icon {
+  position: absolute;
+  top: 1750px;
+  left: 1479px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+}
+.ai-inner {
+  position: absolute;
+  top: 1727.5px;
+  left: 1451.5px;
+  border-right: 1px solid #747474;
+  box-sizing: border-box;
+  width: 1px;
+  height: 81px;
+}
+.wrapper1 {
+  position: absolute;
+  top: 1275px;
+  left: 570px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 2px solid #366ef4;
+  box-sizing: border-box;
+  height: 108px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 61px;
+  text-align: right;
+}
+.icp2022033792-1 {
+  position: absolute;
+  height: 13.2%;
+  width: 42.08%;
+  top: 37.14%;
+  left: 28.96%;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.footer {
+  position: absolute;
+  top: 1916px;
+  left: 0px;
+  width: 1920px;
+  height: 97px;
+  text-align: right;
+  font-size: 14px;
+  color: #aec3e5;
+}
+.logo-text {
+  position: absolute;
+  top: 15.63%;
+  left: 39.26%;
+  width: 100%;
+}
+.logo-png-icon {
+  position: absolute;
+  width: 32.35%;
+  top: 0px;
+  right: 67.65%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 52.3px;
+  object-fit: cover;
+}
+.logo {
+  width: 176.2px;
+  position: relative;
+  height: 52.3px;
+}
+.b {
+  position: relative;
+}
+.nav-button {
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 26px;
+  box-sizing: border-box;
+}
+.nav-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.nav-button1 {
+  border-radius: 8px;
+  background-color: #366ef4;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 26px;
+  box-sizing: border-box;
+}
+.nav-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  color: #fff;
+}
+.nav-button-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 51px;
+  font-size: 18px;
+  color: #171717;
+  font-family: 'Source Han Sans CN';
+}
+.user-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.avatar {
+  width: 56px;
+  border-radius: 48px;
+  background-color: #d9e1ff;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.logo-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 184px;
+}
+.navbar-inner {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 160px;
+  box-sizing: border-box;
+}
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 100px;
+  font-size: 28.83px;
+  color: #366ef4;
+  font-family: YouSheBiaoTiHei;
+}
+.ai- {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 2013px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 18px;
+  color: #000;
+  font-family: 'Source Han Sans CN';
+}
+
